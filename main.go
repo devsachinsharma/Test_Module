@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	v := encrypt.Encrypted("Kodekloud")
-	fmt.Println(encrypt.Encrypted("Kodekloud"))
+	v := encrypt.Encrypted("Kodeklouds")
+	fmt.Println(encrypt.Encrypted("Kodeklouds"))
 	fmt.Println(decrypt.Decrypted(v))
 }
